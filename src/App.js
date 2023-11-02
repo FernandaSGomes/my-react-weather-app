@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 export default function App() {
@@ -13,7 +12,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/fernanda-gomes-front-end-developer/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Fernanda Gomes
           </a>{" "}
@@ -21,7 +20,7 @@ export default function App() {
           <a
             href="https://github.com/FernandaSGomes/my-react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>{" "}
@@ -29,7 +28,7 @@ export default function App() {
           <a
             href="https://current-weather-point.netlify.app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
